@@ -1,4 +1,24 @@
-<head><title>@woohyunpng</title></head>
+<head><title>@woohyunpng</title>
+
+<script>
+
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
+</script>
+	
+</head>
  
 <style type="text/css">
  
@@ -48,46 +68,26 @@ ul.tabs{
  
 		ul.tabs li{
 			background: none;
-			color: #222;
+			color: #000;
 			display: inline-block;
 			padding: 10px 15px;
 			cursor: pointer;
 		}
 
 		ul.tabs li.current{
-			background: #ededed;
-			color: #222;
+			background: #fff;
+			color: #000;
 		}
 
 		.tab-content{
 			display: none;
-			background: #ededed;
+			background: #fff;
 			padding: 15px;
 		}
 
 		.tab-content.current{
 			display: inherit;
 		}
-	
-	
-	
-	<script type="text/javascript">
-
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
-
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
-
-})
-
-</script>
  
 </style>
  
@@ -105,10 +105,10 @@ $(document).ready(function(){
  <br><br>
 	
 	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1">Tab One</li>
-		<li class="tab-link" data-tab="tab-2">Tab Two</li>
-		<li class="tab-link" data-tab="tab-3">Tab Three</li>
-		<li class="tab-link" data-tab="tab-4">Tab Four</li>
+		<li class="tab-link current" data-tab="tab-1">About</li>
+		<li class="tab-link" data-tab="tab-2">Open Orders</li>
+		<li class="tab-link" data-tab="tab-3">Feedback</li>
+		<li class="tab-link" data-tab="tab-4">Fansite reviews</li>
 	</ul>
 
 	<div id="tab-1" class="tab-content current">
