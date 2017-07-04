@@ -2,65 +2,89 @@
  
 <style type="text/css">
  
-body { background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
+body {
+background-color: #000;
+}
  
 ::-webkit-scrollbar { background: #fff; width: 2px; }
-::-webkit-scrollbar-thumb { background: #cccccc; width: 2px }
-::-webkit-scrollbar-corner { background: #fff; }
+::-webkit-scrollbar-thumb { background: #000; width: 2px }
+::-webkit-scrollbar-corner { background: #000; }
  
-#container { padding: 20px; }
+a:link, a:active, a:visited, a:hover {
+color: #000;
+font-family: tahoma;
+text-transform: uppercase;
+text-align: center;
+font-size: 7px;
+text-decoration: none;
+}
  
-a:link, a:visited, a:active { color: #000; text-decoration: none; font-family: times; letter-spacing: 3px; font-size: 10px; text-transform: uppercase; -webkit-transition: all 0.4s ease-in; -moz-transition: all 0.4s ease-in; transition: all 0.4s ease-in; }
+#talkbubble {
+  width: 500px;
+  height: 560px;
+  background: white;
+  position: relative;
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
  
-a:hover { color: #cccccc; text-decoration: none; font-family: times; text-transform: uppercase; font-size: 10px; letter-spacing: 3px; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
+#talkbubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid white;
+  border-bottom: 13px solid transparent;
+}
  
-#seulgi {
-background-image: url(http://i.imgur.com/1VYvcgw.jpg);
-background-repeat: no-repeat;
-background-position: center center;
--webkit-transition: all 0.7s ease-in;
--moz-transition: all 0.7s ease-in;
-transition: all 0.7s ease-in;
+#info {
+font-family: times;
+font-size: 11px;
+text-transform: lowercase;
+line-height: 90%;
+color: #000;
+text-align: justify;
+height: 150px;
+overflow: auto;
+padding: 0px 12px 0px 10px;
 }
  
 </style>
-<center>
-<div id="container">
-<div style="width: 560px; background-color: #fff;">
-<table>
-<tr>
-<td>
-<div id="seulgi"><div style="width: 520px; height: 215px;"></div></div>
-</td>
-<td>
-<div style="width: 5px;"></div>
-</td>
-<td valign="top">
-<div style="position: relative;">
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-<div style="width: 105px; height: 5px;"></div>
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-<div style="width: 105px; height: 5px"></div>
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-<div style="width: 105px; height: 5px"></div>
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-<div style="width: 105px; height: 5px"></div>
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-<div style="width: 105px; height: 5px"></div>
-<div style="width: 65px; background-color: #fff; border-right: 5px solid #fff; padding: 10px; font: 7px arial; text-align: center; text-transform: lowercase; color: #000; line-height: 100%;"><a href="http://www.twitter.com">link</a></div>
-</div>
-</td>
-</tr>
-</table>
  
- <div style="width: 560px;">
-<div style="font-size: 15px; font-family: times; font-style: italic; padding: 60px 20px 0px 20px; text-align: center; color: #000;">your name</div>
-<div style="font-size: 10px; font-family: times; text-transform: uppercase; letter-spacing: 3px; text-align: center; color: #000;"> short line of text about you here<br><br>
+<center><table><tr><td>
  
-<div style="text-align: justify; text-transform: lowercase;">if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short if you go too wide across it'll just do this but this wasn't meant for a lot of text so i'd keep it short </div></div>
-</div>
+<table cellpadding="0" cellspacing="0"><tr><td valign="top" width="83"><div style="background-color: #fff; width: 73px; padding: 5px; color: #000; font-family: tahoma; text-transform: uppercase; text-align: center; font-size: 7px;"><a href="http://www.mibba.com/Member">STORIES</a></div></td></tr>
  
-</div>
-</div>
-</center>
-
+<tr><td valign="top" height="5"></td></tr>
+ 
+<tr><td valign="top" width="83"><div style="background-color: #fff; width: 73px; padding: 5px; color: #000; font-family: tahoma; text-transform: uppercase; text-align: center; font-size: 7px;"><a href="http://www.mibba.com/Member">BLOG</a></div></td></tr>
+ 
+<tr><td valign="top" height="5"></td></tr>
+ 
+<tr><td valign="top" width="83"><div style="background-color: #fff; width: 73px; padding: 5px; color: #000; font-family: tahoma; text-transform: uppercase; text-align: center; font-size: 7px;"><a href="http://awesomaticrobotronic.tumblr.com/post/14873841754">IMAGE</a></div></td></tr>
+ 
+<tr><td valign="top" height="5"></td></tr>
+ 
+<tr><td valign="top" width="83"><div style="background-color: #fff; width: 73px; padding: 5px; color: #000; font-family: tahoma; text-transform: uppercase; text-align: center; font-size: 7px;"><a href="http://www.mibba.com/Member/">LAYOUT</a></div></td></tr></table>
+ 
+</td>
+ 
+<td><div id="talkbubble"><div style="padding-top: 10px;"><div style="background-image: url(http://24.media.tumblr.com/tumblr_mayr7mQHGi1rt64cno1_500.png); background-repeat: no-repeat; background-attachment: scroll; background-position: center bottom; width: 500px; height: 560px;">
+ 
+<div id="info">
+ 
+lorem ipsum dolor sit amet, consectetur adipiscing elit. nulla enim nulla, dictum quis condimentum ac, pellentesque in est. ut porta quam eu ipsum feugiat sed pellentesque tortor vehicula. duis dictum, sem at condimentum interdum, elit orci vulputate tortor, eget rhoncus urna sapien vitae ante. cras vitae ligula et ante aliquet posuere sed at purus. quisque vitae mauris odio. etiam viverra metus sed lectus lacinia vehicula. fusce accumsan metus sit amet ligula pharetra tristique. nunc convallis nisi a justo iaculis congue. quisque ipsum erat, tristique lacinia euismod et, pharetra vehicula enim. in hac habitasse platea dictumst. in venenatis porttitor malesuada. nunc pulvinar commodo metus, eget porttitor enim auctor quis. etiam egestas iaculis nisl at adipiscing. nunc suscipit pulvinar ipsum non molestie. cras quis felis purus, in feugiat sem. 
+ 
+<br><br>
+ 
+lorem ipsum dolor sit amet, consectetur adipiscing elit. nulla enim nulla, dictum quis condimentum ac, pellentesque in est. ut porta quam eu ipsum feugiat sed pellentesque tortor vehicula. duis dictum, sem at condimentum interdum, elit orci vulputate tortor, eget rhoncus urna sapien vitae ante. cras vitae ligula et ante aliquet posuere sed at purus. quisque vitae mauris odio. etiam viverra metus sed lectus lacinia vehicula. fusce accumsan metus sit amet ligula pharetra tristique. nunc convallis nisi a justo iaculis congue. quisque ipsum erat, tristique lacinia euismod et, pharetra vehicula enim. in hac habitasse platea dictumst. in venenatis porttitor malesuada. nunc pulvinar commodo metus, eget porttitor enim auctor quis. etiam egestas iaculis nisl at adipiscing. nunc suscipit pulvinar ipsum non molestie. cras quis felis purus, in feugiat sem. 
+ 
+<br><br>
+ 
+lorem ipsum dolor sit amet, consectetur adipiscing elit. nulla enim nulla, dictum quis condimentum ac, pellentesque in est. ut porta quam eu ipsum feugiat sed pellentesque tortor vehicula. duis dictum, sem at condimentum interdum, elit orci vulputate tortor, eget rhoncus urna sapien vitae ante. cras vitae ligula et ante aliquet posuere sed at purus. quisque vitae mauris odio. etiam viverra metus sed lectus lacinia vehicula. fusce accumsan metus sit amet ligula pharetra tristique. nunc convallis nisi a justo iaculis congue. quisque ipsum erat, tristique lacinia euismod et, pharetra vehicula enim. in hac habitasse platea dictumst. in venenatis porttitor malesuada. nunc pulvinar commodo metus, eget porttitor enim auctor quis. etiam egestas iaculis nisl at adipiscing. nunc suscipit pulvinar ipsum non molestie. cras quis felis purus, in feugiat sem.
+ 
+</div></div></div></div></td></tr></table></center>
