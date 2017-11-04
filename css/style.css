@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Jaldi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ffffff;
   background-color: #600080;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +40,7 @@ h1 {
 }
 
 input {
-  font-family: "Jaldi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
 
