@@ -12,12 +12,9 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   background-color: #600080;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -29,6 +26,7 @@ h1 {
   text-align: center;
   width: 90%;
   margin: 2em auto 0;
+  font-size: 20px;
   font-size: 1.25rem;
   color: #ffffff;
 }
