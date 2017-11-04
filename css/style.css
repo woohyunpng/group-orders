@@ -52,7 +52,7 @@ Main Components
 .cd-accordion-menu {
   width: 90%;
   max-width: 600px;
-  background: #000000;
+  background: #ffffff;
   margin: 4em auto;
   box-shadow: 0 4px 40px #39004d;
 }
@@ -75,9 +75,9 @@ Main Components
   position: relative;
   display: block;
   padding: 18px 18px 18px 64px;
-  background: #000000;
+  background: #ffffff;
   box-shadow: inset 0 -1px #39004d;
-  color: #ffffff;
+  color: #600080;
   font-size: 1.6rem;
 }
 .no-touch .cd-accordion-menu label:hover, .no-touch .cd-accordion-menu a:hover {
