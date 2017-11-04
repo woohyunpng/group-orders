@@ -51,7 +51,7 @@ Main Components
   max-width: 600px;
   background: #ffffff;
   margin: 4em auto;
-  box-shadow: 0 4px 40px #70ac76;
+  box-shadow: 0 4px 40px #39004d;
 }
 .cd-accordion-menu ul {
   /* by default hide all sub menus */
@@ -78,7 +78,7 @@ Main Components
   font-size: 1.6rem;
 }
 .no-touch .cd-accordion-menu label:hover, .no-touch .cd-accordion-menu a:hover {
-  background: #52565d;
+  background: #ffffff;
 }
 .cd-accordion-menu label::before, .cd-accordion-menu label::after, .cd-accordion-menu a::after {
   /* icons */
