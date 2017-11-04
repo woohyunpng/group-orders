@@ -81,7 +81,7 @@ Main Components
   font-size: 1.6rem;
 }
 .no-touch .cd-accordion-menu label:hover, .no-touch .cd-accordion-menu a:hover {
-  background: #39004d;
+  background: #ffffff;
 }
 .cd-accordion-menu label::before, .cd-accordion-menu label::after, .cd-accordion-menu a::after {
   /* icons */
