@@ -1,1 +1,140 @@
-Clean
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Jaldi:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Multi-Level Accordion Menu jQuery version | CodyHouse</title>
+</head>
+<body>
+	<h1>Multi-Level Accordion Menu</h1>
+
+	<div class="cd-nugget-info">
+		<a href="http://codyhouse.co/?p=1218">
+			<span>
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+					<style type="text/css">
+						.cd-nugget-info-arrow{fill:#383838;}
+					</style>
+					<polygon class="cd-nugget-info-arrow" points="15,7 4.4,7 8.4,3 7,1.6 0.6,8 0.6,8 0.6,8 7,14.4 8.4,13 4.4,9 15,9 "/>
+				</svg>
+			</span>
+			Article &amp; Download
+		</a>
+	</div> <!-- cd-nugget-info -->
+
+	<ul class="cd-select-option">
+		<li><a href="index.html">CSS Only</a></li>
+		<li><a class="active" href="#0">jQuery</a></li>
+	</ul>
+
+	<ul class="cd-accordion-menu animated">
+		<li class="has-children">
+			<input type="checkbox" name ="group-1" id="group-1" checked>
+			<label for="group-1">Group 1</label>
+
+      		<ul>
+      			<li class="has-children">
+      				<input type="checkbox" name ="sub-group-1" id="sub-group-1">
+					<label for="sub-group-1">Sub Group 1</label>
+
+					<ul>
+						<li><a href="#0">Image</a></li>
+						<li><a href="#0">Image</a></li>
+						<li><a href="#0">Image</a></li>
+					</ul>
+      			</li>
+      			<li class="has-children">
+      				<input type="checkbox" name ="sub-group-2" id="sub-group-2">
+					<label for="sub-group-2">Sub Group 2</label>
+
+					<ul>
+						<li class="has-children">
+							<input type="checkbox" name ="sub-group-level-3" id="sub-group-level-3">
+							<label for="sub-group-level-3">Sub Group Level 3</label>
+
+							<ul>
+								<li><a href="#0">Image</a></li>
+								<li><a href="#0">Image</a></li>
+							</ul>
+						</li>
+						<li><a href="#0">Image</a></li>
+					</ul>
+      			</li>
+      			<li><a href="#0">Image</a></li>
+				<li><a href="#0">Image</a></li>
+      		</ul>
+		</li>
+
+		<li class="has-children">
+			<input type="checkbox" name ="group-2" id="group-2">
+			<label for="group-2">Group 2</label>
+
+			<ul>
+				<li><a href="#0">Image</a></li>
+				<li><a href="#0">Image</a></li>
+			</ul>
+		</li>
+
+		<li class="has-children">
+			<input type="checkbox" name ="group-3" id="group-3">
+			<label for="group-3">Group 3</label>
+
+			<ul>
+				<li><a href="#0">Image</a></li>
+				<li><a href="#0">Image</a></li>
+			</ul>
+		</li>
+
+		<li class="has-children">
+			<input type="checkbox" name ="group-4" id="group-4">
+			<label for="group-4">Group 4</label>
+
+			<ul>
+				<li class="has-children">
+					<input type="checkbox" name ="sub-group-3" id="sub-group-3">
+					<label for="sub-group-3">Sub Group 3</label>
+
+					<ul>
+						<li><a href="#0">Image</a></li>
+						<li><a href="#0">Image</a></li>
+					</ul>
+				</li>
+				<li><a href="#0">Image</a></li>
+				<li><a href="#0">Image</a></li>
+			</ul>
+		</li>
+	</ul> <!-- cd-accordion-menu -->
+<div id="carbonads-container">
+	<div class="carbonad">
+		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=codyhouseco" id="_carbonads_js"></script>
+	</div>
+	<a href="#0" class="close-carbon-adv">Close</a>
+</div> <!-- #carbonads-container -->
+<script src="js/jquery-2.1.4.js"></script>
+<!-- Resource jQuery -->
+<script src="js/main.js"></script>
+ <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-48014931-1', 'codyhouse.co');
+  	ga('send', 'pageview');
+
+  	jQuery(document).ready(function($){
+  		$('.close-carbon-adv').on('click', function(event){
+  			event.preventDefault();
+  			$('#carbonads-container').hide();
+  		});
+  	});
+</script>
+</body>
+</html>
