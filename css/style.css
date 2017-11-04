@@ -144,13 +144,13 @@ Main Components
 }
 .cd-accordion-menu ul label,
 .cd-accordion-menu ul a {
-  background: #000000;
-  box-shadow: inset 0 -1px #39004d;
+  background: #ffffff;
+  box-shadow: inset 0 -1px #ffffff;
   padding-left: 82px;
 }
 .no-touch .cd-accordion-menu ul label:hover, .no-touch
 .cd-accordion-menu ul a:hover {
-  background: #39004d;
+  background: #ffffff;
 }
 .cd-accordion-menu > li:last-of-type > label,
 .cd-accordion-menu > li:last-of-type > a,
